@@ -23,10 +23,10 @@ public class WebController {
 	@GetMapping(value ="/GetPrime")
 	public String getNo(@RequestParam int a) {
 		if(a%2!=0 && a%3!=0) {
-			return "prime number";
+			return "prime numbers";
 		}
 		else {
-			return "not prime number";
+			return "not prime numbers";
 			
 		}
 	}
